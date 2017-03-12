@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+
+<!-- Website Created and Designed by Sarthak Navjivan using HTML, CSS, and JS -->
+
+<!--
+   ____             _____                           _   _            _   _     
+  / __ \           |  __ \                         | \ | |          | | | |    
+ | |  | |_ __   ___| |  | | ___  __ _ _ __ ___  ___|  \| | ___  _ __| |_| |__  
+ | |  | | '_ \ / _ \ |  | |/ _ \/ _` | '__/ _ \/ _ \ . ` |/ _ \| '__| __| '_ \ 
+ | |__| | | | |  __/ |__| |  __/ (_| | | |  __/  __/ |\  | (_) | |  | |_| | | |
+  \____/|_| |_|\___|_____/ \___|\__, |_|  \___|\___|_| \_|\___/|_|   \__|_| |_|
+                                 __/ |                                         
+                                |___/                                          
+-->
+<html lang="en">
+  <head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>One Degree North Robotics</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="img/logo-cut.jpg" rel="shortcut icon"/>
+
+    <!-- Bootstrap css file-->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font awesome css file-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <!-- Superslide css file-->
+    <link rel="stylesheet" href="css/superslides.css">
+    <!-- Slick slider css file -->
+    <link href="css/slick.css" rel="stylesheet">
+    <!-- smooth animate css file -->
+    <link rel="stylesheet" href="css/animate.css">
+    <!-- Elastic grid css file -->
+    <link rel="stylesheet" href="css/elastic_grid.css">
+    <!-- Circle counter cdn css file -->
+    <link rel='stylesheet prefetch' href='https://cdn.rawgit.com/pguso/jquery-plugin-circliful/master/css/jquery.circliful.css'>
+    <!-- Default Theme css file -->
+    <link id="orginal" href="css/themes/tribe-theme.css" rel="stylesheet">
+    <!-- Main structure css file -->
+    <link href="style.css" rel="stylesheet">
+
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Varela' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+
+  </head>
+  <body>
+    <!-- SCROLL TOP BUTTON -->
+    <a class="scrollToTop" href="#"><i class="fa fa-angle-up"></i></a>
+
+    <!--=========== BEGIN HEADER SECTION ================-->
+    <header id="header">
+      <!-- BEGIN MENU -->
+      <div class="menu_area">
+        <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+          <div class="container">
+          <div class="navbar-header">
+            <!-- FOR MOBILE VIEW COLLAPSED BUTTON -->
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+
+            <a class="navbar-brand" href="#">One<span>Degree</span>North</a>
+
+          </div>
+          <div id="navbar" class="navbar-collapse collapse">
+            <ul id="top-menu" class="nav navbar-nav navbar-right main_nav">
+              <li class="active"><a href="#">Home</a></li>
+              <li><a href="#about">About</a></li>
+
+              <li><a href="#works">Facts</a></li>
+              <li><a href="#team">Team</a></li>
+              <!--<li><a href="#service">Our Robots</a></li>-->
+              <li><a href="#pricing">Sponsors</a></li>
+              <!--<li><a href="#contact">Contact Us</a></li>-->
+
+            </ul>
+          </div>
+          </div>
+        </nav>
+      </div>
+      <!-- END MENU -->
+
+      <div class="slider_area">
+        <div id="slides">
+          <ul class="slides-container">
+            <li>
+              <div class="slider_overlay"></div>
+
+              <img src="img/full-slider/topslide_1.JPG" alt="img">
+
+              <!-- CAPTION-->
+              <div class="slider_caption">
+                <h2>We are Team 4817</h2>
+                <p>We don't just build robots, we built a community.</p>
+                <a  href="#about"
+                    onclick="$('html, body').animate({
+                    scrollTop: $( $(this).attr('href') ).offset().top
+                    }, 750);
+                    return false;"
+                    class="slider_btn">
+                    See what we do
+                </a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <!--=========== END HEADER SECTION ================-->
+
+    <!--=========== BEGIN ABOUT SECTION ================-->
+    <section id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 col-md-12">
+            <div class="about_area">
+              <!-- START ABOUT HEADING -->
+              <div class="heading">
+                <h2 class="wow fadeInLeftBig">About Us</h2>
+                <p>
+                    Our team brings together enthusiastic and passionate students from the Singapore American School in Singapore. Our mission is identical to that of FIRST as a whole:
+                    <br/><br/>
+                    <i>"to inspire young people to be science and technology leaders, by engaging them in exciting student-based programs that build science, engineering, and technology skills, that inspire innovation, and foster well-rounded life capabilities including self-confidence, communication, and leadership."</i>
+                    <br/><br/>
+                    This year, we will be participating in <a class="bluelink" href="http://www.firstinspires.org/robotics/frc/game-and-season" target="_blank"><i>FIRST Steamworks</i></a>.
+                    <br/><br/>
+                    Keep reading to learn more about us, meet the team, and get more information on what it means to be a member of One Degree North!
+
+                  </p>
+              </div>
+
+              <!-- START ABOUT CONTENT -->
+              <div class="about_content">
+                <div class="row">
+                  <div class="col-lg-6 col-md-6 col-sm-12">
+                    <div class="about_featured">
+                      <div class="panel-group" id="accordion">
+                        <!-- START SINGLE FEATURED ITEAM #1-->
+                        <div class="panel panel-default wow fadeInLeft">
+                          <div class="panel-heading">
+                            <h4 class="panel-title">
+                              <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+                                 <span class="fa fa-caret-square-o-down"></span>Ingenuity &amp; Creativity
+                              </a>
+                            </h4>
+                          </div>
+                          <div id="collapseOne" class="panel-collapse collapse in">
+                            <div class="panel-body">
+                             As a robotics team, we encourage students to use and develop their critical thinking skills to create problem-solving ideas. Students' ideas are put to the test, and if they fail to complete the desired task, they are challenged to produce new ideas. Creativity plays an integral role in any robotics team, especially with given materials and guidelines. The FRC organization provides regulations that at times seem incredibly limiting, but with innovation, teamwork, and creativity, students can overcome obstacles and master skills pivotal to STEM careers.
+                            </div>
+                          </div>
+                        </div>
+                        <!-- START SINGLE FEATURED ITEAM #2 -->
+                        <div class="panel panel-default wow fadeInLeft">
+                          <div class="panel-heading">
+                            <h4 class="panel-title">
+                              <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
+                                 <span class="fa fa-caret-square-o-down"></span>Teamwork &amp; Unity
+                              </a>
+                            </h4>
+                          </div>
+                          <div id="collapseTwo" class="panel-collapse collapse">
+                            <div class="panel-body">
+                            As a robotics team, we are centered around communication. In any collaborative project, it is crucial for members to learn to effectively work with others by actively listening to their fellow team members, understanding the importance of receiving and giving feedback, and using diversity as an advantage. These skills allow our team to accomplish goals with efficiency and accuracy of work.
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!--
+                  <div class="col-lg-6 col-md-6 col-sm-12">
+                    <div class="about_slider">
+                      <div class="featured_slider">
+                        <div class="single_iteam">
+                          <img src="img/featureimg/featuredimg_1.jpg" alt="img">
+                        </div>
+                        <div class="single_iteam">
+                          <img src="img/featureimg/featuredimg_7.jpg" alt="img">
+                        </div>
+                        <div class="single_iteam">
+                          <img src="img/featureimg/featuredimg_3.jpg" alt="img">
+                        </div>
+                        <div class="single_iteam">
+                          <img src="img/featureimg/featuredimg_9.png" alt="img">
+                        </div>
+                        <div class="single_iteam">
+                          <img src="img/featureimg/featuredimg_6.jpg" alt="img">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+    <!--=========== BEGIN WORKS SECTION ================-->
+    <section id="works">
+      <!-- BEGIN MILESTONE WORSK SECTION -->
+      <div class="row">
+        <div class="col-lg-12 col-md-12">
+          <div class="counter_section">
+            <!-- SKILLS COUNTER OVERLAY -->
+            <div class="slider_overlay"></div>
+            <div class="container">
+              <div class="counter_area">
+               <div class="heading">
+                  <h3 class="wow fadeInLeft">Quick Facts</h3>
+                </div>
+                <!-- START SINGLE COUNTER-->
+                <div class="col-lg-3 col-md-3 col-sm-3">
+                  <div class="counter wow fadeInUp">
+                    <i class="fa fa-users fa-2x"></i>
+                    <h2 class="timer count-title" id="count-number" data-to="11" data-speed="1500">11</h2>
+                     <p class="count-text ">Team Members</p>
+                  </div>
+                </div>
+                     <!-- START SINGLE COUNTER-->
+                <div class="col-lg-3 col-md-3 col-sm-3">
+                  <div class="counter wow fadeInUp">
+                    <i class="fa fa-user fa-2x"></i>
+                    <h2 class=" count-title" id="count-number4" data-to="2" data-speed="1500">2</h2>
+                     <p class="count-text ">Dedicated Mentors</p>
+                  </div>
+                </div>
+                <!-- START SINGLE COUNTER-->
+                <div class="col-lg-3 col-md-3 col-sm-3">
+                  <div class="counter wow fadeInUp">
+                    <i class="fa fa-cogs fa-2x"></i>
+                    <h2 class="timer count-title" id="count-number2" data-to="5" data-speed="1500">5</h2>
+                     <p class="count-text ">Robots</p>
+                  </div>
+                </div>
+                <!-- START SINGLE COUNTER-->
+                <div class="col-lg-3 col-md-3 col-sm-3">
+                   <div class="counter wow fadeInUp">
+                    <i class="fa fa-calendar fa-2x"></i>
+                    <h2 class="timer count-title" id="count-number3" data-to="5" data-speed="1500">5</h2>
+                     <p class="count-text ">Years in the making</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- END MILESTONE WORSK SECTION -->
+      <!-- END FORTFOLIO WORSK SECTION -->
+    </section>
+    <!--=========== END WORKS SECTION ================-->
+
+    <!--=========== BEGIN TEAM SECTION ================-->
+    <section id="team">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 col-md-12">
+            <!-- BEGIN ABOUT HEADING -->
+            <div class="heading">
+              <h2 class="wow fadeInLeftBig">Our Team</h2>
+            </div>
+            <div class="team_area">
+              <!-- BEGIN TEAM SLIDER -->
+              <div class="team_slider">
+                <!-- BEGIN SINGLE TEAM SLIDE#1 -->
+                <div class="col-lg-3 col-md-3 col-sm-4">
+                  <div class="single_team wow fadeInUp">
+                    <h5 class="">Mr. Bart Millar</h5>
+                    <span>Mentor</span>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-4">
+                  <div class="single_team wow fadeInUp">
+                    <h5 class="">Mrs. Meredith White</h5>
+                    <span>Mentor</span>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-4">
+                  <div class="single_team wow fadeInUp">
+                    <h5 class="">Noah Haefner</h5>
+                    <span>Engineering Lead</span>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-4">
+                  <div class="single_team wow fadeInUp">
+                    <h5 class="">Tzeyee Koh</h5>
+                    <span>Engineering Lead</span>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-4">
+                  <div class="single_team wow fadeInUp">
+                    <h5 class="">James Quek</h5>
+                    <span>Electronics Lead</span>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-4">
+                  <div class="single_team wow fadeInUp">
+                    <h5 class="">Rohan Sahu</h5>
+                    <span>Electronics Assistant</span>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-4">
+                  <div class="single_team wow fadeInUp">
+                    <h5 class="">Sarthak Navjivan</h5>
+                    <span>Software Lead</span>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-4">
+                  <div class="single_team wow fadeInUp">
+                    <h5 class="">Jaclyn Chan</h5>
+                    <span>Software Assistant</span>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-4">
+                  <div class="single_team wow fadeInUp">
+                    <h5 class="">Matt Stefansson</h5>
+                    <span>Engineering Assistant</span>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-4">
+                  <div class="single_team wow fadeInUp">
+                    <h5 class="">Christian Wright</h5>
+                    <span>Engineering Assistant</span>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-4">
+                  <div class="single_team wow fadeInUp">
+                    <h5 class="">Mehek Jain</h5>
+                    <span>Assistant</span>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-4">
+                  <div class="single_team wow fadeInUp">
+                    <h5 class="">Sam Aldritt</h5>
+                    <span>Assistant</span>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-4">
+                  <div class="single_team wow fadeInUp">
+                    <h5 class="">Evan Hynes</h5>
+                    <span>Assistant</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--=========== END TEAM SECTION ================-->
+
+       <!--=========== BEGIN SERVICE SECTION ================-->
+       <!--
+    <section id="service">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 col-md-12">
+            <div class="heading">
+              <h2 class="wow fadeInLeftBig">Our Robots</h2>
+              <p>Below are some robots from our previous years. Each and every one complies with the FRC rules and regulations that were given that specific year. These robots were all completed by our team within six weeks.   </p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12 col-md-12">
+            <div class="service_area">
+              <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-6">
+                  <div class="single_service wow fadeInLeft">
+                    <div class="service_iconarea">
+                        <img src="img/botprofiles/botprofile_chickenbotpie.jpg" class="service_img"/>
+                    </div>
+                    <h3 class="service_title">ChickenBot Pie</h3>
+                    <p>Teamwork was especially important in the building and operation of ChickenBot Pie. The robot's functions were to catch and throw a ball. The large ball was to be passed from robot to robot, and in order for this to go smoothly, it had to be capable of making calculated and fluent moves. Mecanum wheels were a main component of this feature.  </p>
+                  </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6">
+                  <div class="single_service wow fadeInRight">
+                    <div class="service_iconarea">
+                      <img src="img/botprofiles/botprofile_kiwiquail.JPG" class="service_img"/>
+                    </div>
+                    <h3 class="service_title">Kiwi Quail</h3>
+                    <p> Kiwi Quail was made to throw frisbees. Its one-purpose design allowed the team to focus on the accuracy of the robot's throws. The robot was able to launch frisbees from short and long distances with astounding accuracy. Kiwi Quail allowed team members to utilize different skills that they had learned throughout the year, including pneumatics.  </p>
+                  </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6">
+                  <div class="single_service wow fadeInLeft">
+                    <div class="service_iconarea">
+                        <img src="img/botprofiles/botprofile_loganbot.jpg" class="service_img"/>
+                    </div>
+                    <h3 class="service_title">Loganbot</h3>
+                    <p>LoganBot was similar to Kiwi Quail in its function of throwing frisbees, but the new bot expanded on that skill and was also capable of lifting itself off of the ground and onto a pipe. While its accuracy in throwing the frisbees and climbing up the pipe was average, its consistency was the shining quality that guaranteed a high number of points. </p>
+                  </div>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6">
+                  <div class="single_service wow fadeInRight">
+                    <div class="service_iconarea">
+                      <img src="img/botprofiles/botprofile_basketball.jpg" class="service_img"/>
+                    </div>
+                    <h3 class="service_title">Basketbot</h3>
+                    <p>BasketBot was engineered to play basketball. Its primary functions were pick up the basketballs and be able to launch them in to a series of hoops of various heights. With the use of cameras that allowed spatial sensing, BasketBot was able to accurately make shots without assistance.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6 col-md-6 col-sm-6">
+                <div class="single_service wow fadeInLeft">
+                  <div class="service_iconarea">
+                    <img src="img/botprofiles/botprofile_sirswordfish.jpg" class="service_img"/>
+                  </div>
+                  <h3 class="service_title">Sir Swordfish</h3>
+                  <p>Sir Swordfish was built to compete head to head with other teams in <a class="bluelink" href="http://www.firstinspires.org/robotics/frc/welcome-to-first-stronghold" target="_blank"><i>2016's FIRST Stronghold</i></a>. Sir Swordfish features a 10" flywheel to launch boulders and was our first robot built to feature an optical auto-aim system. This robot keeps the tradition of having a fish themed name for competition robots.   </p>
+                </div>
+              </div>
+              <div class="col-lg-6 col-md-6 col-sm-6">
+                <div class="single_service wow fadeInRight">
+                  <div class="service_iconarea">
+                    <img src="img/botprofiles/botprofile_theaterbot.jpg" class="service_img"/>
+                  </div>
+                  <h3 class="service_title">Theater Bot</h3>
+                  <p>Theater bot was created for the Saint John Bosco Drama Department. The Drama Department needed help to further immerse their audience into their play, <i>Long Bridge over Deep Waters</i>. With the help of Theater Bot, the cast was able to simulate astronauts floating in space, allowing the viewers to better visualize what the actors were portraying.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    -->
+    <!--=========== END SERVICE SECTION ================-->
+
+    <!--=========== BEGIN PRICING SECTION ================-->
+    <!--
+    <section id="pricing">
+      <div class="container">
+        <div class="row col-lg-12 col-md-12">
+          <div class="heading">
+            <h2 class="wow fadeInLeftBig">Support Us</h2>
+            <p>We need <i>your</i> help to bring science and engineering to our community. We have the will and the know-how, but need you to help spread the message of FIRST Robotics to ambitious students and a benefiting community. Here are 4 of our sponsor tiers:
+</p>
+          </div>
+        </div>
+        <div class="row col-lg-12 col-md-12">
+          <div class="pricing_area">
+            <div class="row">
+              <div class="col-lg-3 col-md-3 col-sm-3">
+                <div class="single_price wow fadeInUp">
+                  <h3>Arrowhead</h3>
+                  <div class="price">
+                    <h4>$250+</h4>
+                  </div>
+                  <ul class="price_features">
+                      <li><strong>Competition shirt:</strong> Company name listed</li>
+                      <li><strong>Banner:</strong> Company name listed</li>
+                      <li><strong>Website:</strong> Company name listed on the sponsorship page</li>
+                      <li><strong>Invitation:</strong> Year End dinner and awards celebration</li>
+                      <li><strong>Memorabilia:</strong> Thank you photo</li>
+                  </ul>
+                  <a href="/links/donate.html" class="price_btn" target="_blank">Donate</a>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-3 col-sm-3">
+                <div class="single_price wow fadeInUp"> 
+                  <h3>Spirit</h3>
+                  <div class="price">
+                    <h4>$500+</h4>
+                  </div>
+                  <ul class="price_features">
+                    <li><strong>Competition shirt:</strong> Team will list your company name with logo</li>
+                    <li><strong>Banner:</strong> Your company name and logo listed</li>
+                    <li><strong>Website:</strong> Company name and logo listed</li>
+                    <li><strong>Invitation:</strong> Year End dinner and awards celebration and public demonstrations</li>
+                    <li><strong>Memorabilia:</strong> Competition shirt and thank you plaque</li>
+                  </ul>
+                  <a href="/links/donate.html" class="price_btn" target="_blank">Donate</a>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-3 col-sm-3">
+                <div class="single_price wow fadeInUp">
+                  <h3>Blue</h3>
+                  <div class="price">
+                    <h4>$1,500+</h4>
+                  </div>
+                  <ul class="price_features">
+                    <li><strong>Competition Shirt:</strong> Team will list you company name with medium logo</li>
+                    <li><strong>Banner:</strong> Medium company name and logo listed</li>
+                    <li><strong>Website:</strong> Company name and logo listed</li>
+                    <li><strong>Invitation:</strong> Year End dinner and awards celebration and public demonstrations</li>
+                    <li><strong>Memorabilia:</strong> 2 competition shirts and thank you plaque</li>
+                  </ul>
+                  <a href="/links/donate.html" class="price_btn" target="_blank">Donate</a>
+                </div>
+              </div>
+              <div class="col-lg-3 col-md-3 col-sm-3">
+                <div class="single_price wow fadeInUp">
+                  <h3>Gold</h3>
+                  <div class="price">
+                    <h4>$3,000+</h4>
+                  </div>
+                  <ul class="price_features">
+                    <li><strong>Competition Shirt:</strong> Team will list your company name with large logo</li>
+                    <li><strong>Robot:</strong> Logo on robot shown at all competitions</li>
+                    <li><strong>Banner:</strong> Large company name and logo listed</li>
+                    <li><strong>Website:</strong> Company name and logo listed</li>
+                    <li><strong>Invitation:</strong> Year End dinner and awards celebration and public demonstrations</li>
+                    <li><strong>Memorabilia:</strong> 4 competition shirts and thank you plaque
+                  </ul>
+                  <a href="/links/donate.html" class="price_btn" target="_blank">Donate</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    -->
+    <!--=========== END PRICING SECTION ================-->
+
+    <!--=========== BEGIN CLIENTS SECTION ================-->
+    <section id="pricing">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 col-md-12 col-sm-12">
+            <!-- START BLOG HEADING -->
+            <div class="heading">
+              <h2 class="wow fadeInLeftBig">Our Sponsors</h2>
+              <p>One Degree North gratefully receives support from community sponsors. We recognize our generous donors:
+                </p>
+            </div>
+          </div>
+          <div class="col-lg-12 col-md-12 col-sm-12">
+            <div class="clients_content">
+              <div class="row">
+                <!-- BEGIN CLIENTS SLIDER -->
+                <center>
+                  <a href="http://www.pw.utc.com/" target="_blank"><img src="img/pratt.png"></a>
+                  <a href="http://autodesk.com" target="_blank"><img src="img/autodesk.jpg"></a>
+                  <a href="http://www.solidworks.com/" target="_blank"><img src="img/solidworks.jpg"></a>
+                </center>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--=========== END CLIENTS SECTION ================-->
+
+    <!--=========== BEGIN CONTACT SECTION ================-->
+    <!--
+    <section id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 col-md-12 col-sm-12">
+            <div class="heading">
+              <h2 class="wow fadeInLeftBig">Contact Us</h2>
+              <p>Send us an email, we love making new friends! </p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="contact_content">
+            <div class="col-lg-5 col-md-5 col-sm-5">
+              <div class="contact_form">
+
+                <div id="form-messages"></div>
+
+
+                     <form action="https://docs.google.com/forms/d/1KwQAIQUFqCqbGkzOpIRHuKaHeb6dpRbwsqBd4_75ynQ/formResponse" method="POST" id="ss-form" target="_self" onsubmit="">
+
+
+
+                      <input type="text" placeholder="Name" name="entry.1019677557" value="" class="form-control" id="entry_1019677557" dir="auto" aria-label="Name  " aria-required="true" required="" title="">
+                      <input type="text" placeholder="Email" name="entry.1479206889" value="" class="form-control" id="entry_1479206889" dir="auto" aria-label="Email  Please enter a valid email" aria-required="true" required="" pattern="(?:[a-z0-9!#$%&amp;'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&amp;'*+/=?^_`{|}~-]+)*|&quot;(?:[\x01-\x08\x0b\x0c\x0e-\x1f\x21\x23-\x5b\x5d-\x7f]|\\[\x01-\x09\x0b\x0c\x0e-\x7f])*&quot;)@(?:(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?|\[(?:(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.){3}(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?|[a-z0-9-]*[a-z0-9]:(?:[\x01-\x08\x0b\x0c\x0e-\x1f\x21-\x5a\x53-\x7f]|\\[\x01-\x09\x0b\x0c\x0e-\x7f])+)\])" title="Please enter a valid email">
+                      <textarea placeholder="Message" name="entry.1654389751" rows="8" cols="0" class="form-control" id="entry_1654389751" dir="auto" aria-label="Message  "></textarea>
+                      <input type="submit" name="submit" value="Send" id="ss-submit" class="submit_btn">
+                      </form>
+
+
+              </div>
+            </div>
+
+            <div class="col-lg-7 col-md-7 col-sm-7">
+              <div class="contact_map">
+               <div id="map_canvas"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    -->
+    <!--=========== END CONTACT SECTION ================-->
+
+     <!-- Javascript Files
+     ================================================== -->
+
+     <!-- initialize jQuery Library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <!-- Google map -->
+    <script src="https://maps.googleapis.com/maps/api/js"></script>
+    <script src="js/jquery.ui.map.js"></script>
+     <!-- For smooth animatin  -->
+    <script src="js/wow.min.js"></script>
+    <!-- Bootstrap js -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- superslides slider -->
+    <script src="js/jquery.superslides.min.js" type="text/javascript"></script>
+    <!-- slick slider -->
+    <script src="js/slick.min.js"></script>
+    <!-- for circle counter -->
+    <script src='https://cdn.rawgit.com/pguso/jquery-plugin-circliful/master/js/jquery.circliful.min.js'></script>
+    <!-- for portfolio filter gallery -->
+    <script src="js/modernizr.custom.js"></script>
+    <script src="js/classie.js"></script>
+    <script src="js/elastic_grid.min.js"></script>
+    <script src="js/portfolio_slider.js"></script>
+
+    <!-- Custom js-->
+    <script src="js/custom.js"></script>
+  </body>
+</html>
